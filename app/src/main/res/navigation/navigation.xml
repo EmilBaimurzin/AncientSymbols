@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.ancient.game.ui.starting.FragmentStarting"
+        android:label="FragmentMain" >
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentAncientGame"
+            app:destination="@id/fragmentAncientGame" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAncientGame"
+        android:name="com.ancient.game.ui.ancient_game.FragmentAncientGame"
+        android:label="FragmentAncientGame" >
+        <action
+            android:id="@+id/action_fragmentAncientGame_to_dialogLoss"
+            app:destination="@id/dialogLoss" />
+        <action
+            android:id="@+id/action_fragmentAncientGame_to_dialogWin"
+            app:destination="@id/dialogWin" />
+    </fragment>
+    <dialog
+        android:id="@+id/dialogLoss"
+        android:name="com.ancient.game.ui.dialogs.DialogLoss"
+        android:label="DialogLoss" >
+        <argument
+            android:name="task1"
+            app:argType="integer" />
+        <argument
+            android:name="task2"
+            app:argType="integer" />
+        <argument
+            android:name="task3"
+            app:argType="integer" />
+        <argument
+            android:name="task4"
+            app:argType="integer" />
+    </dialog>
+    <dialog
+        android:id="@+id/dialogWin"
+        android:name="com.ancient.game.ui.dialogs.DialogWin"
+        android:label="DialogWin" />
+</navigation>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="440dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/win"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/task01"
+                android:padding="10dp"
+                android:src="@drawable/symbol01" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/task01"
+                android:padding="10dp"
+                android:src="@drawable/symbol06" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/task01"
+                android:padding="10dp"
+                android:src="@drawable/symbol04" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/task01"
+                android:padding="10dp"
+                android:src="@drawable/symbol03" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-25dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/task02"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/firstTaskText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semi_bold"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:text="15/" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semi_bold"
+                    android:text="15"
+                    android:textColor="#FFD700"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/task02"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/secondTaskText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semi_bold"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:text="15/" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semi_bold"
+                    android:text="15"
+                    android:textColor="#FFD700"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/task02"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/thirdTaskText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semi_bold"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:text="15/" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semi_bold"
+                    android:text="15"
+                    android:textColor="#FFD700"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/task02"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/fourthTaskText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semi_bold"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:text="15/" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semi_bold"
+                    android:text="15"
+                    android:textColor="#FFD700"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <com.ancient.game.core.library.CustomImageButton
+                android:id="@+id/home"
+                android:src="@drawable/home"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <com.ancient.game.core.library.CustomImageButton
+                android:id="@+id/restart"
+                android:src="@drawable/restart02"
+                android:layout_marginStart="120dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.ancient.game.core.library.CustomImageButton
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/next"
+        android:src="@drawable/next"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+
+</FrameLayout>
